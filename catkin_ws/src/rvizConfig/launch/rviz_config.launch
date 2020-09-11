@@ -1,0 +1,3 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/workspace/catkin_ws/src/rvizConfig/rviz_config_view_navg_with_markers.rviz"/>  
+</launch>

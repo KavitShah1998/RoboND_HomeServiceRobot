@@ -1,0 +1,7 @@
+export PATH=/usr/bin:$PATH
+source /opt/ros/kinetic/setup.bash
+alias ss="source devel/setup.bash"
+cd /home/workspace/
+
+source ./catkin_ws/devel/setup.bash
+export ROBOT_INITIAL_POSE="-x 0 -y 0 -Y 1.570"
